@@ -1,0 +1,157 @@
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+  background-color: #fff;
+}
+
+.product-card {
+  width: 250px;
+  text-align: center;
+  border: 1px dashed  #FFC522;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.product-card p {
+  font-size: 16px;
+  color: #e91e2b;
+  font-weight: bold;
+}
+
+.product-card button {
+  padding: 10px 15px;
+  background-color: #e91e2b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.product-card button:hover{
+  background-color:#de1220;
+}
+.footer {
+  background-color: #e32b2b;
+  color: white;
+  padding: 20px 30px;
+  justify-content: space-between;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-left, .footer-right {
+  flex: 1;
+  margin: 10px;
+}
+.footer-middle{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+.footer-middle image {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  padding: 50px;
+
+}
+
+.footer-left .logo img {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.company-info {
+  list-style: none;
+  padding: 0;
+}
+
+.company-info li {
+  margin-bottom: 8px;
+}
+
+.company-info a {
+  color: white;
+  text-decoration: underline;
+}
+
+.policies {
+  list-style: none;
+  margin: 30px;
+
+}
+
+.policies li {
+  margin-bottom: 10px;
+}
+
+.policies a {
+  color: white;
+  text-decoration: none;
+}
+
+.policies a:hover {
+  text-decoration: underline;
+}
+
+.delivery-hotline {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.badges img {
+  width: 120px;
+  margin: 10px 0;
+}
+
+.app-links p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.store-links img {
+  width: 120px;
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+}

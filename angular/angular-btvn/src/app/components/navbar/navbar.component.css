@@ -1,0 +1,74 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 10px 20px 0 20px;
+  background-color: #e91e2b;
+  color: white;
+  align-content: flex-end
+
+
+}
+
+.logo img {
+  height: 80px;
+  width: 80px;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 10px 10px 0 0 ;
+}
+.menu a:hover {
+  color: #e91e2b;
+  background-color: #F3D2D6;
+}
+#thucdon{
+  background-color:#F3D2D6 ;
+  color: #e91e2b;
+}
+.menu a:hover {
+  color: #e91e2b;
+  background-color: #F3D2D6;
+
+}
+.giaohangtannoi{
+  width: 100px;
+
+}
+.giaohangtannoi img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.user-options {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 20px;
+
+}
+
+.pickup {
+  background-color: #feca2f;
+  color: #000;
+  font-weight: 800px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+}
+
