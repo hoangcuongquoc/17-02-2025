@@ -101,5 +101,5 @@
   <img src="{{image}}" >
   <h3>{{name}}</h3>
   <p>{{ price }}</p>
-  <button>Đặt Hàng</button>
+  <button (click)="addProductToCart()" [routerLink]="['/product', id]">Đặt Hàng</button>
 </div>

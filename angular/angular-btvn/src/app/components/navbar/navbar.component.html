@@ -1,6 +1,6 @@
 <div class="navbar">
   <div class="logo">
-    <img src="https://jollibee.com.vn/static/version1739462216/frontend/Jollibee/default/vi_VN/images/logo.png" alt="Jollibee Logo">
+    <img routerLink="" src="https://jollibee.com.vn/static/version1739462216/frontend/Jollibee/default/vi_VN/images/logo.png" alt="Jollibee Logo">
   </div>
   <nav class="menu">
     <a href="*">Trang Chủ</a>
@@ -16,6 +16,10 @@
   <div class="user-options">
     <button class="pickup"><b>Pick Up</b></button>
     <div class="giaohangtannoi"><img src="https://jollibee.com.vn/media/wysiwyg/delivery-lg-rs.png" ></div>
+    <mat-icon [matBadge]="totalItems">shopping_cart</mat-icon>
+
+
+
   </div>
 </div>
 

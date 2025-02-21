@@ -1,17 +1,9 @@
 <div class="nav-bar">
-  <app-navbar></app-navbar>
+  <app-navbar ></app-navbar>
 </div>
 
-<div class="box">
-  <div class="container">
-    @for (products of items; track $index) {
-      <app-product-card [image]="products.image"
-                        [name]="products.name"
-                        [price]="products.price" >
-      </app-product-card>
-    }
-  </div>
-</div>
+<router-outlet></router-outlet>
+
 <app-footer></app-footer>
 
 
