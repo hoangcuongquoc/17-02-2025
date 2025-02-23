@@ -97,9 +97,13 @@
 <!--  </div>-->
 <!--</div>-->
 
-<div class="product-card">
-  <img src="{{image}}" >
-  <h3>{{name}}</h3>
-  <p>{{ price }}</p>
-  <button (click)="addProductToCart()" [routerLink]="['/product', id]">Đặt Hàng</button>
-</div>
+<!--<div class="product-card">-->
+<!--  <img src="{{image}}" >-->
+<!--  <h3>{{name}}</h3>-->
+<!--  <p>{{ price }}</p>-->
+<!--  <button (click)="addProductToCart()" [routerLink]="['/product', id]">Đặt Hàng</button>-->
+<!--</div>-->
+<button (click)="increase()">Increase</button>
+<h2>{{ counter$ | async }}</h2>
+<button (click)="decrease()">Decrease</button>
+<button (click)="reset()">Resest</button>

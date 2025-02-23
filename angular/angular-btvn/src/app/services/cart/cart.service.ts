@@ -17,6 +17,12 @@ export class CartService {
 
   countCartItems(){
     console.log(this.products.length)
-    return this.products.length;
+    return this.products.length
+
   }
+
+
+
+
+
 }
